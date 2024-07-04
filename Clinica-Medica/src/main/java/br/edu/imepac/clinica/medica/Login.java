@@ -29,7 +29,6 @@ public class Login extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jTextField2 = new javax.swing.JTextField();
-        jCheckBox1 = new javax.swing.JCheckBox();
         jPasswordField1 = new javax.swing.JPasswordField();
         jButton1 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
@@ -46,17 +45,13 @@ public class Login extends javax.swing.JFrame {
         jLabel3.setText("Usuário");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 190, -1, -1));
         getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 220, 460, 30));
-
-        jCheckBox1.setText("Não sou um Robô");
-        getContentPane().add(jCheckBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 330, 160, 40));
         getContentPane().add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 300, 460, 30));
 
         jButton1.setFont(new java.awt.Font("Segoe UI Variable", 0, 14)); // NOI18N
         jButton1.setText("Confirma");
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 300, -1, 30));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 360, -1, 30));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\plugm\\OneDrive\\Documentos\\GitHub\\Clinica-Medica-012024\\Clinica-Medica\\src\\main\\java\\br\\edu\\imepac\\clinica\\medica\\midia\\login.gif")); // NOI18N
-        jLabel1.setText("s");
+        jLabel1.setIcon(new javax.swing.ImageIcon("/home/alexandre/Documentos/GitHub/Clinica-Medica-012024/Clinica-Medica/src/main/java/br/edu/imepac/clinica/medica/midia/login.gif")); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();
@@ -99,7 +94,6 @@ public class Login extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
-    private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
