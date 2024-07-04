@@ -6,7 +6,7 @@ package br.edu.imepac.clinica.medica;
 
 /**
  *
- * @author 232-000934
+ * @author alexandre
  */
 public class Splash extends javax.swing.JFrame {
 
@@ -29,24 +29,18 @@ public class Splash extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setSize(new java.awt.Dimension(910, 512));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\232-000934\\Documents\\Projetos-Everton\\Aplicacao-Desktop\\Clinica-Medica-012024\\Clinica-Medica\\src\\main\\java\\br\\edu\\imepac\\clinica\\medica\\midia\\splash.jpg")); // NOI18N
-        jLabel1.setText(" ");
+        jLabel1.setIcon(new javax.swing.ImageIcon("/home/alexandre/Documentos/GitHub/Clinica-Medica-012024/Clinica-Medica/src/main/java/br/edu/imepac/clinica/medica/midia/splash.gif")); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jLabel1)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(jLabel1)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jLabel1)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(jLabel1)
         );
 
         pack();
